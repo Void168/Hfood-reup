@@ -1,0 +1,42 @@
+/* Loading */
+  
+.loading{
+  position: absolute;
+  top:50%;
+  right:45%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  text-align: center;
+}
+
+.loading span{
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background: white;
+  margin:0px 1px;
+  animation: loading 500ms ease-in-out infinite;
+}
+
+.loading span:nth-child(1){
+  background: #2eeca8;
+  animation-delay: -400ms;
+}
+.loading span:nth-child(2){
+  background: #ec902e;
+  animation-delay: -300ms;
+}
+.loading span:nth-child(3){
+  background: #ea3d8c;
+  animation-delay: -200ms;
+}
+
+@keyframes loading{
+  0%,50%,100%{
+    transform: translateY(10px)
+  }
+  25%,75%{
+    transform: translateY(-10px)
+  }
+}

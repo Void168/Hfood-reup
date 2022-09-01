@@ -1,0 +1,22 @@
+/* Checkout Steps */
+.checkout-steps{
+    border-radius: 1rem !important;
+    margin: 0 1rem;
+  }
+  
+  .checkout-steps > div{
+    background-color: #C4C4C4;
+    border-top: #C3F4BE #c0c0c0 solid !important;
+    color: #575757;
+    flex: 1;
+    padding: 0.3rem;
+    text-align: center;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+  }
+  
+  .checkout-steps > div.active{
+    background-color: #C3F4BE;
+    border-top-color: #C3F4BE;
+    color: #5a5a5a;
+  }

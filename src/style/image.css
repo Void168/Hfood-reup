@@ -1,0 +1,107 @@
+.banner{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+  }
+  
+  .banner img{
+    width: 90%;
+    margin: 3rem 1rem 3rem 2rem;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+
+  img.large {
+    width: 100%;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+    transition: ease-in-out 0.3s;
+  }
+  
+  img.large:hover {
+    transform: scale(1.01)
+  }
+
+  .signin-main img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+  }
+
+  .avatar-change{
+    margin: 1.5rem 0 1.5rem 6rem;
+    height: 80px !important;
+    width: 80px !important;
+    display: block !important; 
+    z-index: 0;
+  }
+
+  .similar-item img{
+    max-width: 100%;
+    min-height: 12rem;
+    width: 100%;
+  }
+
+  .swiper-button-prev:after,
+  .swiper-button-next:after{
+    font-size: 2rem !important;
+    padding: 1rem 1.5rem;
+    border: 2px solid rgb(197, 41, 49);
+    border-radius: 50%; 
+    color: rgb(197, 41, 49);
+    font-weight: bold;
+    background: #ffffff;
+    opacity: .7
+  }
+
+  .swiper-button-next:after{
+    margin-right: 5rem;
+  }
+
+  .swiper-button-prev:after{
+    margin-left: 5rem;
+  }
+
+  .swiper-scrollbar{
+    height: .5rem;
+  }
+
+  .swiper-scrollbar-drag{
+    background-color: rgb(219, 228, 182);
+    height: .5rem;
+  }
+
+.Avatar input[type="file"]{
+  display: none;
+}
+
+.MuiAvatar-root .customFileUpload{
+  color: #C3F4BE;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.gallery{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.gallery img{
+  cursor: pointer;
+  max-height: 10rem;
+  max-width: 10rem;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+  height: 101px;
+  width: 101px;
+  z-index: 100;
+  transition: all 0.3s
+}
+
+.gallery img:hover{
+  transform: scale(1.05);
+}

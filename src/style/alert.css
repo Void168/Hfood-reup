@@ -1,0 +1,33 @@
+/* Alert */
+
+.loading{
+    display: block !important;
+  }
+  
+  .success{
+    color: #20a020;
+  }
+  .danger{
+    color: #a02020;
+  }
+  
+  
+  .alert{
+    padding: 1rem;
+    border: 0.1rem solid transparent;
+    border-radius: 0.5rem;
+  }
+  
+  .alert-info{
+    background-color: #FFF0BE
+  }
+  
+  .alert-error{
+    background-color: #FFF0BE
+  }
+
+  .alert-true{
+    color: #d81b1b;
+    font-weight: bold;
+  }
+  

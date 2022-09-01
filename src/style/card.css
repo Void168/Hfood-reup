@@ -1,0 +1,131 @@
+/* Card */
+.card {
+    padding: 1rem;
+    margin: 1%;
+    float: left;
+    min-height: 40rem;
+    max-width: 18%;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+  .card-body {
+    padding: 1rem;
+  }
+  .card-body > * {
+    margin-bottom: 0.5rem;
+  }
+  
+  .card:hover{
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+  }
+  
+  .card-img-top{
+    z-index: -1;
+    transition: ease-in-out 0.3s;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.25);
+  }
+  
+  a .card-img-top:hover{
+    transform: scale(1.05);
+  }
+  
+  .price,
+  .card-title {
+    width: 75%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 2rem;
+    display: inline;
+  }
+
+  .card-body {
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
+  .medium {
+    max-width: 100%;
+    min-height: 20rem;
+    width: 100%;
+    border: 1px solid rgb(185, 175, 175);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .card.card-body {
+    min-width: 20rem;
+  }
+
+  
+  .card-text{
+    margin-bottom: 0;
+  }
+  
+  .card.card-body.justifies {
+    min-width: 15rem;
+  }
+  
+  .card.card-body.justifies div{
+    margin: 0.3rem 0;
+  }
+
+  .card .card-body .note ul li:first-child {
+    background-color: #FFF0BE;
+  }
+
+  .similar-item {
+    margin: 1rem;
+    float: left;
+    min-height: 25rem;
+    min-width: 15rem !important;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+
+  .similar-item .card-body{
+    font-size: 1.3rem;
+  }
+  .similar-item .price{
+    font-size: 2rem;
+  }
+
+  .discount-span{
+    position: absolute;
+    border-radius: 0 0 0 10px;
+    font-weight: bold;
+    padding: .2rem;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    color: #000;
+    background: linear-gradient(0deg, rgba(251,240,211,1) 0%, rgba(242,197,75,1) 100%);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+
+  .discount-span-detail{
+    text-align: center;
+    width: 60%;
+    font-weight: bold;
+    padding: .2rem;
+    z-index: 100;
+    color: #000;
+    background: linear-gradient(0deg, rgba(251,240,211,1) 0%, rgba(242,197,75,1) 100%);
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+  
+  .coupon{
+    flex-direction: row;
+    min-height: 20rem !important;
+    padding: 0;
+    background-color: #F2C54B;
+    min-width: 60rem !important;
+    text-align: center;
+  }
+
+  .coupon img{
+    width: 35%;
+    height: 30%;
+  }
+
+  .card-body .card-text{
+    text-align: left;
+    margin-top: 2rem;
+  }

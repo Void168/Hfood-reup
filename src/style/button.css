@@ -1,0 +1,217 @@
+/* Button */
+.loadmore{
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  button:disabled,
+  button[disabled]{
+  background-color: #cccccc !important;
+  color: #666666 !important;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25) !important;
+}
+  
+  .loadmore button,
+  .create-product button{
+    padding: 1rem;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgb(197, 41, 49);
+    color: #e9e2c9;
+    transition: ease-in-out 0.2s;
+  } 
+  
+  .loadmore button:hover,
+  .addToCart:hover,
+  .proceed-to-checkout button:hover,
+  .create-product button:hover{
+    background: linear-gradient(0deg, rgb(224, 191, 193) 0%, rgb(233, 222, 199) 100%);
+    transform: scale(1.01);
+    color: rgb(197, 41, 49) !important;
+    transition: ease-in-out 0.2s;
+  }
+  
+  .addToCart{
+    background-color: #F2C54B !important;
+    width: 100%;
+    height: 80%;
+    font-size: 1.5rem !important;
+    color: #43423F !important;
+  }
+  
+  .delete,
+  .update,
+  .details{
+    border-radius: 10px !important;
+    padding: 1rem;
+    font-weight: bold;
+    color: #504E4E;
+    border: none !important;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+  
+  .delete:hover,
+  .update:hover{
+    box-shadow: 2px 5px 5px rgba(224, 129, 20, 0.25);
+  }
+
+  table .delete:nth-child(even)
+  {
+    background: #FFFBEE;
+  }
+
+  table .delete:nth-child(odd)
+  {
+    background: #C3F4BE;
+  }
+  
+  
+  
+  .proceed-to-checkout{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .proceed-to-checkout button{
+    background-color: #F2C54B;
+    border: none;
+    width: 100%;
+    margin-top: 2rem;
+    min-height: 5rem;
+    font-size: 2rem;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    color: #FFFFFF;
+  }
+  
+  .signin-form button{
+    background-color: #F2C54B;
+    border: none;
+    width: 80%;
+    margin: 2rem 3rem;
+    min-height: 5rem;
+    font-size: 2rem;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    color: #FFFFFF;
+  }
+  
+  .payment-main button,
+  .update-form button{
+    background-color: #F2C54B;
+    border: none;
+    width: 50%;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    min-height: 5rem;
+    font-size: 2rem;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 1rem;
+    color: #FFFFFF;
+  }
+
+  
+.place-order-button{
+  background-color: #F2C54B;
+  border: none;
+  width: 100%;
+  margin-top: 2rem;
+  min-height: 5rem;
+  font-size: 2rem;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  color: #FFFFFF;
+}
+
+.btn-details{
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+  border: none;
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  margin: 1rem 0;
+}
+
+.profile-form button{
+  background-color: #F2C54B;
+  border: none;
+  width: 100%;
+  min-height: 5rem;
+  font-size: 2rem;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 1rem;
+  color: #FFFFFF;
+  margin: 1rem 0;
+}
+
+.btn-actions{
+  margin: 1rem 2rem;
+  background-color: #ffffff !important;
+}
+
+.rdrDateRangePickerWrapper{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.25);
+}
+
+.kep-login-facebook.metro{
+  background-color: #3578E5;
+  font-size: 1.3rem;
+}
+
+.voucher-kinds button{
+  width: 20%;
+  margin-right: 5%;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem;
+}
+
+.red{
+  transition: ease-in-out 0.2s;
+  background-color: #FBABAB;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.25));
+}
+
+.red:hover{
+  background-color: #fa6f6f;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(247, 196, 196, 0.25)) drop-shadow(0px 4px 4px rgba(255, 0, 0, 0.25));
+}
+
+.yellow{
+  transition: ease-in-out 0.2s;
+  background-color: #f0f351;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(235, 255, 0, 0.25)) drop-shadow(0px 4px 4px rgba(235, 255, 0, 0.25));
+}
+
+.yellow:hover{
+  background-color: #dfee12;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(242, 248, 169, 0.25)) drop-shadow(0px 4px 4px rgba(255, 230, 0, 0.555));
+}
+
+.green{
+  transition: ease-in-out 0.2s;
+  background-color: #78FF6C;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(66, 255, 0, 0.25)) drop-shadow(0px 4px 4px rgba(66, 255, 0, 0.25));
+}
+
+.green:hover{
+  background-color: #30fd1d;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(167, 252, 136, 0.25)) drop-shadow(0px 4px 4px rgba(30, 255, 0, 0.25));
+}
+
+.blue{
+  transition: ease-in-out 0.2s;
+  background-color: #8DCFFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 148, 255, 0.25)) drop-shadow(0px 4px 4px rgba(0, 148, 255, 0.25));
+}
+
+.blue:hover{
+  background-color: #3daaf8;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(142, 204, 248, 0.25)) drop-shadow(0px 4px 4px rgba(0, 149, 255, 0.836));
+}

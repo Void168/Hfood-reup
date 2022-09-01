@@ -7,7 +7,6 @@ import Map from './components/Map.js'
 import AdminRoute from './components/AdminRoute.js'
 import PrivateRoute from './components/PrivateRoute.js';
 import Navbar from './components/Navbar.js'
-import MessengerCustomerChat from 'react-messenger-customer-chat'
 
 import HomeScreen from './screens/HomeScreen'
 import ProductScreen from './screens/ProductScreen'
@@ -98,10 +97,6 @@ function App() {
                             </Row>
                     </Container>                
                 </footer>
-                <MessengerCustomerChat style={{height:'100%'}}
-                    pageId="101814922198465"
-                    appId="360428865760677"
-                />
             </div>
             <ScrollToTop />
             <VoucherIcon/>

@@ -41,7 +41,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "server": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
+    "live": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
